@@ -1,0 +1,50 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 70vh 70vh 70vh;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item4"
+    "item5 item6"
+    ;
+}
+.item1
+{
+    /* background-color: black; */
+    border: 1px solid black;
+    grid-area: item1;   
+}
+.item2
+{
+    /* background-color: white; */
+    border: 1px solid black;
+    grid-area: item2;   
+}
+.item3
+{
+    /* background-color: black; */
+    border: 1px solid black;
+    grid-area: item3;   
+}
+.item4
+{
+    /* background-color: black; */
+    border: 1px solid black;
+    grid-area: item4;   
+}
+.item5
+{
+    /* background-color: black; */
+    border: 1px solid black;
+    grid-area: item5;   
+}
+.item6
+{
+    /* background-color: black; */
+    border: 1px solid black;
+    grid-area: item6;   
+}
