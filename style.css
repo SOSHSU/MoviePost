@@ -48,3 +48,41 @@
     border: 1px solid black;
     grid-area: item6;   
 }
+.img{
+    display: block;
+    height: 60vh;
+    margin: 0% auto;
+}
+.title{
+    color: black;
+    font-size: 5vw;
+    text-align: center;
+    background-color: goldenrod;
+}
+.names{
+    border: 1px black solid;
+    background: goldenrod;
+    height: 9.5vh;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0% auto;
+}
+.flex1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: cornflowerblue; */
+}
+.input{
+    width: 48%;
+    height: 8vh;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+}
+.button{
+    width: 98%;
+    height: 5vh;
+    font-size: 2vw;
+}
