@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin: 0px;
+    background-color: black;
 }
 .grid{
     display: grid;
@@ -14,38 +15,39 @@
 }
 .item1
 {
-    /* background-color: black; */
-    border: 1px solid black;
-    grid-area: item1;   
+    background-color: black;
+    border: 1px solid white;
+    grid-area: item1;
+
 }
 .item2
 {
-    /* background-color: white; */
-    border: 1px solid black;
+    background-color: black;
+    border: 1px solid white;
     grid-area: item2;   
 }
 .item3
 {
-    /* background-color: black; */
-    border: 1px solid black;
+    background-color: black;
+    border: 1px solid white;
     grid-area: item3;   
 }
 .item4
 {
-    /* background-color: black; */
-    border: 1px solid black;
+    background-color: black;
+    border: 1px solid white;
     grid-area: item4; 
 }
 .item5
 {
-    /* background-color: black; */
-    border: 1px solid black;
+    background-color: black;
+    border: 1px solid white;
     grid-area: item5;   
 }
 .item6
 {
-    /* background-color: black; */
-    border: 1px solid black;
+    background-color: black;
+    border: 1px solid white;
     grid-area: item6;   
 }
 .img{
@@ -54,10 +56,12 @@
     margin: 0% auto;
 }
 .title{
+    border: 1px solid white;
     color: black;
     font-size: 5vw;
     text-align: center;
     background-color: goldenrod;
+    font-weight: bold;
 }
 .names{
     border: 1px black solid;
@@ -74,15 +78,19 @@
     /* background-color: cornflowerblue; */
 }
 .input{
-    width: 48%;
+    width: 49.8%;
     height: 8vh;
-    background-color: cornflowerblue;
+    background-color: rgb(199, 108, 108);
     color: black;
     font-size: 3vw;
     text-align: center;
+    border: 1px white solid;
 }
 .button{
-    width: 98%;
-    height: 5vh;
-    font-size: 2vw;
+    width: 100%;
+    height: 10vh;
+    font-size: 3vw;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
 }
