@@ -10,14 +10,12 @@ function changeMovie(){
     var title1 = moviesNames[0]
     name1.innerHTML = title1
 
-
     const display2 = document.querySelector(".movie2")
     var poster2 = moviesImage[1]
     display2.innerHTML = `<img class = "img" src = ${poster2}>`
     const name2 = document.querySelector("#name2")
     var title2 = moviesNames[1]
     name2.innerHTML = title2
-
 
     const display3 = document.querySelector(".movie3")
     var poster3 = moviesImage[2]
@@ -26,14 +24,12 @@ function changeMovie(){
     var title3 = moviesNames[2]
     name3.innerHTML = title3
 
-
     const display4 = document.querySelector(".movie4")
     var poster4 = moviesImage[3]
     display4.innerHTML = `<img class = "img" src = ${poster4}>`
     const name4 = document.querySelector("#name4")
     var title4 = moviesNames[3]
     name4.innerHTML = title4
-
 
     const display5 = document.querySelector(".movie5")
     var poster5 = moviesImage[4]
@@ -42,7 +38,6 @@ function changeMovie(){
     var title5 = moviesNames[4]
     name5.innerHTML = title5
 
-
     const display6 = document.querySelector(".movie6")
     var poster6 = moviesImage[5]
     display6.innerHTML = `<img class = "img" src = ${poster6}>`
@@ -50,7 +45,6 @@ function changeMovie(){
     var title6 = moviesNames[5]
     name6.innerHTML = title6
 }
-
 
 function addNewMovie()
 {
