@@ -75,7 +75,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* background-color: cornflowerblue; */
 }
 .input{
     width: 49.8%;
